@@ -198,7 +198,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://live-weather-news.netlify.app/"
+                  href="https://get-live-weather-details.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
