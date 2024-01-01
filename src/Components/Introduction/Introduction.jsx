@@ -50,7 +50,7 @@ export const Introduction = () => {
           <PhoneIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/viraj-gupta-681073226/"
+          href="https://www.linkedin.com/in/rkvirajgupta/"
           aria-label="linkedin"
           className="link link--icon"
           target="_blank"
