@@ -23,10 +23,10 @@ export const About = () => {
           {" "}
           Indore, Madhya-pradesh, India.{" "}
         </span>
-        I have completed my Post Graduation in MSc (Information Technology) from{" "}
+        I am pursuing my Post Graduation in M.Sc. (Information Technology) from{" "}
         <span className="different">MPBOU University, Bhopal (M.P.)</span>.
         Currently working in {" "}
-        <span className="different">Q3 Technologies</span> as a Software Developer
+        <span className="different">Q3 Technologies</span> as a Software Developer.
       </h4>
       <h4>Terms That can describe me apart form Coding :</h4>
       <h4 className="different">

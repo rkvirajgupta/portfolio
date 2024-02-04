@@ -59,14 +59,48 @@ export const Timeline = () => {
             Q3 Technologies, Gurugram, Haryana(Hybrid)
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Currently, I am actively involved in managing client projects and
-            taking the lead developer role in another project.
+            Currently, I play a pivotal role as the lead developer, actively
+            steering and managing client projects.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          date={"Nov 2021 - July 2022"}
+          contentStyle={{
+            boxShadow: `var(--shadow)`,
+            border: "3px solid var(--clr-primary)",
+            backgroundColor: `var(--clr-bg)`,
+            textAlign: "center",
+            color: `var(--clr-fg-alt)`,
+          }}
+          contentArrowStyle={{
+            borderRight: "16px solid  var(--clr-primary)",
+          }}
+          iconStyle={{
+            border: ` 3px solid var(--clr-primary)`,
+            backgroundColor: `var(--clr-bg)`,
+            color: `var(--clr-primary)`,
+          }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title" data-aos="fade-right">
+            Full Stack Developer
+          </h3>
+          <h4
+            className="vertical-timeline-element-subtitle"
+            data-aos="fade-right"
+          >
+            Masai School, Bengaluru, Karnataka(Remote)
+          </h4>
+          <p data-aos="fade-right" className="timelineDiscription">
+            Joined as a software trainee, Build web applications on react.js,
+            node.js, and practice data structures & algorithms.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"Jul 2022 - Jul 2024"}
+          date={"July 2022 - July 2024"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -100,42 +134,8 @@ export const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          date={"Nov 2021 - June 2022"}
-          contentStyle={{
-            boxShadow: `var(--shadow)`,
-            border: "3px solid var(--clr-primary)",
-            backgroundColor: `var(--clr-bg)`,
-            textAlign: "center",
-            color: `var(--clr-fg-alt)`,
-          }}
-          contentArrowStyle={{
-            borderRight: "16px solid  var(--clr-primary)",
-          }}
-          iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
-          }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Student [Full-Stack Web development]
-          </h3>
-          <h4
-            className="vertical-timeline-element-subtitle"
-            data-aos="fade-right"
-          >
-            Masai School, Bengaluru, Karnataka(Remote)
-          </h4>
-          <p data-aos="fade-right" className="timelineDiscription">
-            Joined the Military coding school to learn Full Stack Development
-            and DSA. Also get to learn lot more other skills as well.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"Jul 2013 - June 2016"}
+          date={"June 2013 - June 2016"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -189,7 +189,7 @@ export const Timeline = () => {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Student [HSC (Science)]
+            Student [12th (Science)]
           </h3>
           <h4
             className="vertical-timeline-element-subtitle"
@@ -198,7 +198,7 @@ export const Timeline = () => {
             Govt.H.S.S.Raibidpura, Khargone(M.P.)
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Studied 12th in Mathematics, Physics and Chemistry.
+            Studied Mathematics, Physics and Chemistry.
           </p>
         </VerticalTimelineElement>
 
