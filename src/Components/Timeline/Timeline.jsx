@@ -195,7 +195,7 @@ export const Timeline = () => {
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            Govt.H.S.S.Raibidpura, Khargone(M.P.)
+            Govt. H. S. S. Raibidpura, Khargone(M.P.)
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
             Studied Mathematics, Physics and Chemistry.
