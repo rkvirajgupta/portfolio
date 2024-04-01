@@ -50,7 +50,7 @@ export const ClientProjects = () => {
                   rel="noreferrer"
                 >
                   <span type="button" className="btns onbt">
-                    View Discription
+                    View Description
                   </span>
                 </a>
               </div>
@@ -94,7 +94,7 @@ export const ClientProjects = () => {
                   rel="noreferrer"
                 >
                   <span type="button" className="btns onbt">
-                    View Discription
+                    View Description
                   </span>
                 </a>
               </div>
