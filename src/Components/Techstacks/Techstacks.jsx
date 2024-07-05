@@ -1,17 +1,18 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaBitbucket, FaJira } from "react-icons/fa";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { FaReact, FaJava, FaBitbucket, FaJira } from "react-icons/fa";
+import { DiCss3 } from "react-icons/di";
 import {
   SiMui,
-  SiEslint,
   SiRedux,
-  SiExpress,
   SiJavascript,
-  SiHeroku,
   SiPostman,
   SiPrettier,
   SiHtml5,
+  SiMysql,
+  SiSpring,
+  SiSpringboot,
+  SiHibernate,
 } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
@@ -63,36 +64,36 @@ export const Techstacks = () => {
           <h5>Bootstrap</h5>
         </div>
         <div>
-          <BiLogoNetlify />
-          <h5>Netlify</h5>
+          <FaJava />
+          <h5>Java</h5>
         </div>
         <div>
-          <SiEslint />
-          <h5>ESLint</h5>
+          <SiMysql />
+          <h5>MySQL</h5>
         </div>
         <div>
-          <SiPrettier />
-          <h5>Prettier</h5>
+          <SiSpring />
+          <h5>Spring</h5>
         </div>
         <div>
-          <FaNodeJs />
-          <h5>Nodejs</h5>
-        </div>
-        <div>
-          <DiMongodb />
-          <h5>MongoDb</h5>
-        </div>
-        <div>
-          <SiExpress />
-          <h5>Express</h5>
+          <SiSpringboot />
+          <h5>Spring-Boot</h5>
         </div>
         <div>
           <SiPostman />
           <h5>Postman</h5>
         </div>
         <div>
-          <SiHeroku />
-          <h5>Heroku</h5>
+          <SiHibernate />
+          <h5>Hibernate</h5>
+        </div>
+        <div>
+          <BiLogoNetlify />
+          <h5>Netlify</h5>
+        </div>
+        <div>
+          <SiPrettier />
+          <h5>Prettier</h5>
         </div>
       </div>
     </div>

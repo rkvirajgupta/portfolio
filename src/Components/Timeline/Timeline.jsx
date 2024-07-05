@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import StarRateIcon from "@mui/icons-material/StarRate";
@@ -31,7 +30,7 @@ export const Timeline = () => {
       </h2>
       <VerticalTimeline lineColor={linecolor}>
         <VerticalTimelineElement
-          date={"Aug 2022 - Present"}
+          date={"June 2023 - Present"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -56,16 +55,16 @@ export const Timeline = () => {
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            Q3 Technologies, Gurugram, Haryana(Hybrid)
+            Abacus Consultancy Services Pvt. Ltd, Indore(Office).
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Currently, I play a pivotal role as the lead developer, actively
+            Currently, I play a pivotal role as the react developer, actively
             steering and managing client projects.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          date={"Nov 2021 - July 2022"}
+          date={"March 2022 - Oct 2022"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -100,7 +99,7 @@ export const Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"July 2022 - July 2024"}
+          date={"July 2024 - July 2026"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -119,23 +118,23 @@ export const Timeline = () => {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Student [M.Sc. (Information Technology)]
+            Student [M.C.A. (ML & AI)]
           </h3>
           <h4
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            MPBOU University, Bhopal(M.P.)
+            Amity University, Noida
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Studied Information Technology which consists of all the subjects
-            accross Related Computer Science stream.
+            Studying Machin Learning and Aritificial Intelleinces which consists
+            of all the subjects accross Related Computer Science stream.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"June 2013 - June 2016"}
+          date={"July 2021 - July 2024"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -170,7 +169,7 @@ export const Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"May 2012 - May 2013"}
+          date={"June 2020 - June 2021"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -195,7 +194,7 @@ export const Timeline = () => {
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            Govt. H. S. S. Raibidpura, Khargone(M.P.)
+            Gayatri Siksha Niketan, Khargone(M.P.)
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
             Studied Mathematics, Physics and Chemistry.

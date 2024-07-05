@@ -10,8 +10,8 @@ export const Header = () => {
     <header className={"header center " + themename}>
       <h3>
         <a href="#home" className="link mylast">
-          <span className="myv">𝕧</span>
-          𝕚𝕣𝕒𝕛
+          <span className="myv">𝔻</span>
+          𝕙𝕣𝕦𝕧
         </a>
       </h3>
       <Navbar />

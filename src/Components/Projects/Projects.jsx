@@ -6,16 +6,22 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiReact,
+  SiSpring,
+  SiSpringboot,
+  SiHibernate,
+  SiMysql,
+  SiApachemaven,
+  SiRedux,
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
+import { FaJava } from "react-icons/fa";
+import { DiCss3, DiReact } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import project1 from "../../assets/project1.png";
-import project2 from "../../assets/project2.png";
+import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.jpg";
-import project4 from "../../assets/project4.png";
-import project5 from "../../assets/project5.jpg";
+import project4 from "../../assets/project4.jpg";
+import project5 from "../../assets/project5.png";
 import project6 from "../../assets/project6.png";
-import project7 from "../../assets/project7.png";
 
 export const Projects = () => {
   return (
@@ -26,7 +32,7 @@ export const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project4} alt="StoryBook" />
+                <img id="newsetimg" src={project1} alt="StoryBook" />
               </div>
             </div>
             <div className="project_information">
@@ -51,7 +57,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://unique-story-book.netlify.app/"
+                  href="https://create-story-book.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -60,7 +66,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/rkvirajgupta/StoryBook"
+                  href="https://github.com/Dhruva8878/Story_Book"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -72,37 +78,31 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className="projects_container" data-aos="fade-right">
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project5} alt="Chappan" />
+                <img id="newsetimg" src={project2} alt="Chappan" />
               </div>
             </div>
             <div className="project_information">
-              <h2>Chappan App</h2>
+              <h2>Chappan</h2>
               <p>
-                It is famous food area in Indore city, where you can eat 56
-                types of delicious meals at one place on affordable prices with
-                great taste.
-                <br />
-                <br />
-                An exceptional Chappan app project, meticulously crafted by me
-                in a single day.
+                This is a entirely new website called Chappan. It is famous food
+                area in Indore city, where you can eat 56 types of delicious
+                meals at one place on affordable prices with great taste. <br />
+                <br />A project built by me, in 2 days.{" "}
               </p>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
                 <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
-                <SiReact />
+                <DiReact />
+                <SiRedux />
               </div>
               <div>
                 <a
-                  href="https://chappan-app.netlify.app/"
+                  href="https://chappan.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -111,7 +111,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/rkvirajgupta/Chhapan-app"
+                  href="https://github.com/Dhruva8878/Chappan"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -145,14 +145,10 @@ export const Projects = () => {
                 <SiHtml5 />
                 <DiCss3 />
                 <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
-                <SiReact />
               </div>
               <div>
                 <a
-                  href="https://shephoraindia.netlify.app/"
+                  href="https://cloneshephora.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -161,7 +157,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/khushi89012/SephoraClone"
+                  href="https://github.com/skismile/team-Sephora_project"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -178,7 +174,56 @@ export const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project6} alt="Weather" />
+                <img id="newsetimg" src={project4} alt="Covid-19" />
+              </div>
+            </div>
+            <div className="project_information">
+              <h2>Covid-19 Application</h2>
+              <p>
+                A RESTful API web-service for a Covid-19 Application. This API
+                performs all the fundamental CRUD operations of Covid-19
+                Application.
+                <br />
+                <br />A collaborative project, built in 6 days by a team of 5
+                developers.
+              </p>
+              <div>
+                <FaJava />
+                <SiSpring />
+                <SiSpringboot />
+                <SiHibernate />
+                <SiMysql />
+                <SiApachemaven />
+              </div>
+              <div>
+                {/* <a
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btns onbt onbt">
+                    See this Live
+                  </span>
+                </a> */}
+                <a
+                  href="https://github.com/Dhruva8878/Covid_19_webApp"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btns onbt">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="projects_container" data-aos="fade-right">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div id="newset">
+                <img id="newsetimg" src={project5} alt="Weather" />
               </div>
             </div>
             <div className="project_information">
@@ -198,7 +243,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://get-live-weather-details.netlify.app/"
+                  href="https://livewheatherapp.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -207,7 +252,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/rkvirajgupta/Weather-app"
+                  href="https://github.com/Dhruva8878/Weather-app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -224,56 +269,7 @@ export const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project2} alt="Pluralsight" />
-              </div>
-            </div>
-            <div className="project_information">
-              <h2>Pluralsight Clone</h2>
-              <p>
-                Pluralsight is an online learning and workforce development
-                platform that helps businesses and individuals adjust to
-                changing technology. <br />
-                <br />A collaborative project built by a team of 4, executed in
-                5 days.{" "}
-              </p>
-
-              <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
-              </div>
-              <div>
-                <a
-                  href="https://plurlsightclone.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/khageswar9/Pluralsight-clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="projects_container" data-aos="fade-right">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div id="newset">
-                <img id="newsetimg" src={project7} alt="Translator" />
+                <img id="newsetimg" src={project6} alt="Translator" />
               </div>
             </div>
             <div className="project_information">
@@ -293,7 +289,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://translate-language-app.netlify.app/"
+                  href="https://livetranslaterapp.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -302,52 +298,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/rkvirajgupta/Translator-app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="projects_container" data-aos="fade-right">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div id="newset">
-                <img id="newsetimg" src={project1} alt="Bangood" />
-              </div>
-            </div>
-            <div className="project_information">
-              <h2>Bangood Clone</h2>
-              <p>
-                Banggood is a chinese E-commerce legitimate online shopping
-                website, offering a wide range of products at very cheap prices.
-                <br />
-                <br />A collaborative project, built in 6 days by a team of 5
-                developers.
-              </p>
-              <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://bangood-clone.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/Ankur310/Banggood-Site"
+                  href="https://github.com/Dhruva8878/Translator-app"
                   target="_blank"
                   rel="noreferrer"
                 >

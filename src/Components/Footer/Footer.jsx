@@ -9,7 +9,7 @@ export const Footer = () => {
     <div className={"section " + themename}>
       <a href="/" rel="noreferrer" target="_blank">
         <div className="footerBox">
-          <h3 className="footer">Made By Viraj</h3>
+          <h3 className="footer">Made By Dhruv</h3>
         </div>
       </a>
     </div>

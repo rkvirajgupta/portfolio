@@ -7,8 +7,8 @@ import { FaBitbucket, FaJira } from "react-icons/fa";
 import { GrGraphQl } from "react-icons/gr";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import berthmaps from "../../assets/berthmaps.png";
-import sarma from "../../assets/sarma.png";
+import meydan from "../../assets/meydan.png";
+import routeship from "../../assets/routeship.png";
 
 export const ClientProjects = () => {
   return (
@@ -19,16 +19,16 @@ export const ClientProjects = () => {
           <div className="client_project">
             <div className="client_project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={berthmaps} alt="Berth Maps" />
+                <img id="newsetimg" src={meydan} alt="Meydan" />
               </div>
             </div>
             <div className="client_project_information">
-              <h2>Berth Maps</h2>
+              <h2>Meydan Free Zone Protal</h2>
               <p>
-                Berth Maps is a schematic view of real-time railway berth
-                movements by GPS, TD and TRUST. Berthmaps provides a platform to
-                manage trains, berths, crew, stations, etc. Using Berthmaps, you
-                can view running trains in real-time and replay mode.
+                Meydan Free Zone is the one of the most thriving commercial free
+                zones in the UAE. Consequently, the Free Zone offers the freedom
+                to tailor licenses to meet each company's specific requirements
+                and adapt them as needed.
               </p>
               <div>
                 <div>
@@ -44,15 +44,15 @@ export const ClientProjects = () => {
                   <FaJira />
                   <BsFiletypeScss />
                 </div>
-                <a
-                  href="https://www.mistral-data.com/product/berth-maps-tbc/"
+                {/* <a
+                  href="https://www.mistral-data.com/product/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btns onbt">
                     View Description
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -62,17 +62,17 @@ export const ClientProjects = () => {
           <div className="client_project">
             <div className="client_project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={sarma} alt="Sarma" />
+                <img id="newsetimg" src={routeship} alt="Routeship" />
               </div>
             </div>
             <div className="client_project_information">
-              <h2>Sarma</h2>
+              <h2>Route Ship Logistics</h2>
               <p>
-                Sarma is the Mistral Data stock resource allocation system.
-                Using Sarma, allocations can be updated quickly via the
-                web-based user interface with changes validated and immediately
-                pushed out in real- time to control centers, staff, and other
-                systems.
+                Route Ship is a supply chain marketplace that provides
+                economical and unpretentious truckloads shipping with an
+                ingenious, uninterrupted, and cost-effective approach. Route
+                Ship always tries to meet service standards with flexibility and
+                unconventional adaptability.
               </p>
               <div>
                 <div>
@@ -88,15 +88,15 @@ export const ClientProjects = () => {
                   <FaJira />
                   <BsFiletypeScss />
                 </div>
-                <a
-                  href="https://www.mistral-data.com/product/sarma/"
+                {/* <a
+                  href="https://www.mistral-data.com/product/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btns onbt">
                     View Description
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
