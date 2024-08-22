@@ -25,6 +25,7 @@ export const ClientProjects = () => {
             <div className="client_project_information">
               <h2>Berth Maps</h2>
               <p>
+                Client is leading private sector provider of public transport.
                 Berth Maps is a schematic view of real-time railway berth
                 movements by GPS, TD and TRUST. Berthmaps provides a platform to
                 manage trains, berths, crew, stations, etc. Using Berthmaps, you
@@ -44,7 +45,7 @@ export const ClientProjects = () => {
                   <FaJira />
                   <BsFiletypeScss />
                 </div>
-                <a
+                {/* <a
                   href="https://www.mistral-data.com/product/berth-maps-tbc/"
                   target="_blank"
                   rel="noreferrer"
@@ -52,7 +53,7 @@ export const ClientProjects = () => {
                   <span type="button" className="btns onbt">
                     View Description
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -68,11 +69,11 @@ export const ClientProjects = () => {
             <div className="client_project_information">
               <h2>Sarma</h2>
               <p>
-                Sarma is the Mistral Data stock resource allocation system.
-                Using Sarma, allocations can be updated quickly via the
-                web-based user interface with changes validated and immediately
-                pushed out in real- time to control centers, staff, and other
-                systems.
+                Client is leading private sector provider of public transport.
+                Sarma is the stock resource allocation system. Using Sarma,
+                allocations can be updated quickly via the web-based user
+                interface with changes validated and immediately pushed out in
+                real- time to control centers, staff, and other systems.
               </p>
               <div>
                 <div>
@@ -88,7 +89,7 @@ export const ClientProjects = () => {
                   <FaJira />
                   <BsFiletypeScss />
                 </div>
-                <a
+                {/* <a
                   href="https://www.mistral-data.com/product/sarma/"
                   target="_blank"
                   rel="noreferrer"
@@ -96,7 +97,7 @@ export const ClientProjects = () => {
                   <span type="button" className="btns onbt">
                     View Description
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
