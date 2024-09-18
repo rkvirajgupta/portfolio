@@ -15,11 +15,11 @@ export const Introduction = () => {
       </h1>
       <Type />
       <p className="introduction__desc" data-aos="fade-right">
-        Experienced Member with a demonstrated history of working in the
-        information technology and services industry. Skilled in React, Redux,
-        HTML, CSS, and JavaScript. Also had Implemented tools like ESLint,
-        Prettier, LintStaged, Husky, Vite, Pnpm, etc in place for maintaining
-        code quality and standards in projects.
+        Experienced Software Developer with around 3 years of experience in
+        frontend technologies. Skilled in React, Redux, Redux-Toolkit, HTML,
+        CSS, and JavaScript. Also had Implemented tools like ESLint, Prettier,
+        LintStaged, Husky, Vite, Pnpm, etc in place for maintaining code quality
+        and standards in projects.
       </p>
       <div className="introduction__contact center">
         <a
