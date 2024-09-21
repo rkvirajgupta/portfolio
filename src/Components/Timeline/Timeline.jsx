@@ -100,7 +100,7 @@ export const Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"July 2022 - July 2024"}
+          date={""}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -135,7 +135,7 @@ export const Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"June 2013 - June 2016"}
+          date={""}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -170,7 +170,7 @@ export const Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date={"May 2012 - May 2013"}
+          date={""}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
