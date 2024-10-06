@@ -15,10 +15,10 @@ export const Introduction = () => {
       </h1>
       <Type />
       <p className="introduction__desc" data-aos="fade-right">
-        Experienced Software Developer with around 3 years of experience in
-        frontend technologies & have a strong understanding of Data structures and
-        Alogrithms. Skilled in React, Redux, Redux-Toolkit, HTML, CSS, and
-        JavaScript. Also had Implemented tools like ESLint, Prettier,
+        Experienced Software Developer with 3+ years of experience in MERN &
+        have a strong understanding of Data structures and Alogrithms. Skilled
+        in React, Redux, Redux-Toolkit, HTML, CSS, JavaScript, node, express,
+        and mongoDB. Also had Implemented tools like ESLint, Prettier,
         LintStaged, Husky, Vite, Pnpm, etc in place for maintaining code quality
         and standards in projects.
       </p>
