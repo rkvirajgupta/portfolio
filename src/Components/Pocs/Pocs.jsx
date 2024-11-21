@@ -292,7 +292,7 @@ export const Pocs = () => {
                 <IoLogoJavascript />
               </div>
               <div>
-                <a
+                {/* <a
                   href="https://translate-language-app.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
@@ -300,7 +300,7 @@ export const Pocs = () => {
                   <span type="button" className="btns onbt onbt">
                     See this Live
                   </span>
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/rkvirajgupta/Translator-app"
                   target="_blank"
