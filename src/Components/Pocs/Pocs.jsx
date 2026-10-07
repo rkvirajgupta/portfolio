@@ -246,7 +246,7 @@ export const Pocs = () => {
                 <SiMongodb />
               </div>
               <div>
-                <a
+                {/* <a
                   href="https://plurlsightclone.netlify.app"
                   target="_blank"
                   rel="noreferrer"
@@ -254,7 +254,7 @@ export const Pocs = () => {
                   <span type="button" className="btns onbt onbt">
                     See this Live
                   </span>
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/khageswar9/Pluralsight-clone"
                   target="_blank"

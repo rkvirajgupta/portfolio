@@ -15,7 +15,7 @@ export const Introduction = () => {
       </h1>
       <Type />
       <p className="introduction__desc" data-aos="fade-right">
-        Experienced Software Developer with 3+ years of experience in MERN &
+        Experienced Sr. Software Developer with 5+ years of experience in MERN &
         have a strong understanding of Data structures and Alogrithms. Skilled
         in React, Redux, Redux-Toolkit, HTML, CSS, JavaScript, Node, Express,
         and MongoDB. Also had Implemented tools like ESLint, Prettier,
