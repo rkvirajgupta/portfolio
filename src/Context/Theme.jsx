@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
-import PropTypes from "prop-types";
 
+// React 19 no longer checks propTypes, so the prop-types declaration was removed.
 const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
@@ -14,10 +14,6 @@ const ThemeProvider = ({ children }) => {
       {children}
     </ThemeContext.Provider>
   );
-};
-
-ThemeProvider.propTypes = {
-  children: PropTypes.node.isRequired,
 };
 
 export { ThemeProvider, ThemeContext };

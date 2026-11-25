@@ -8,14 +8,13 @@ import {
   SiRedux,
   SiExpress,
   SiJavascript,
-  SiHeroku,
   SiPostman,
   SiPrettier,
   SiHtml5,
 } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
-import { BiLogoNetlify } from "react-icons/bi";
+import { BiLogoHeroku, BiLogoNetlify } from "react-icons/bi";
 
 export const Techstacks = () => {
   return (
@@ -91,7 +90,7 @@ export const Techstacks = () => {
           <h5>Postman</h5>
         </div>
         <div>
-          <SiHeroku />
+          <BiLogoHeroku />
           <h5>Heroku</h5>
         </div>
       </div>

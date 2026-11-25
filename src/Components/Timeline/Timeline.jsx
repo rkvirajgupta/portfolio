@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import "./Timeline.css";
 import {
   VerticalTimeline,
@@ -13,17 +13,9 @@ import { ThemeContext } from "../../Context/Theme";
 
 export const Timeline = () => {
   const [{ themename }] = useContext(ThemeContext);
-  const [linecolor, setlinecolor] = useState(
-    themename === "light" ? "#23283e" : "#fcfcfc"
-  );
+  // Derived from the theme on each render; no state or effect needed.
+  const linecolor = themename === "dark" ? "#fcfcfc" : "#23283e";
 
-  useEffect(() => {
-    if (themename === "dark") {
-      setlinecolor("#fcfcfc");
-    } else {
-      setlinecolor("#23283e");
-    }
-  }, [themename]);
   return (
     <div className="section mainsection">
       <h2 className="section__title" data-aos="fade-right">
