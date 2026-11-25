@@ -1,0 +1,3 @@
+allowBuilds:
+  # Only a postinstall message script; the package ships pre-built code.
+  react-vertical-timeline-component: false
